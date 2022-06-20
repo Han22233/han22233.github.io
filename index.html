@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>메인화면</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding : 0;
+            margin : 10px;
+            font-family: 'Jua', sans-serif;
+            color : #555;
+        }
+        li
+        {
+            list-style-type : none;
+        }
+        .clear
+        {
+            clear:both;
+        }
+        header
+        {
+            width : 1100px;
+            height : 110px;
+            margin-top : 10px;
+            border : 5px solid #ccc;
+            border-radius : 5px;
+            background-color : #eee;
+        }
+        #logo
+        {
+            margin : 45px 20px 20px 50px;
+            float : left;
+            font-weight : bold;
+        }
+        #top
+        {
+            float : right;
+            margin : 45px 20px 0 0;
+        }
+        nav
+        {
+            width : 1100px;
+            height : 70px;
+            margin-top : 10px;
+            padding-top : 25px;
+            border : 5px solid #ccc;
+            border-radius : 5px;
+            background-color : #eee;
+        }
+        nav li
+        {
+            display : inline;
+            margin : 63px ;
+            transition : width 0.5s;
+        }
+        nav li:hover
+        {
+            font-size : 20px;
+        }
+        section
+        {
+            float : left;
+            margin-top : 00px;
+            border : 5px solid #ccc;
+            border-radius : 5px;
+            background-color : #eee;
+            width : 900px;
+            height : 600px;
+        }
+        aside
+        {
+            width : 150px;
+            float : left;
+            border : 5px solid #ccc;
+            border-radius : 5px;
+            padding-top : 10px;
+            margin-left : 10px;
+            background-color : #eee;
+            text-align : center;
+        }
+        footer
+        {
+            width : 1100px;
+            height : 100px;
+            border-top : solid 1px #aaa;
+            margin-top : 10px;
+            border : 5px solid #ccc;
+            border-radius : 5px;
+            background-color : #eee;
+        }
+        #name
+        {
+            float : left;
+            margin : 40px 0 0 20px;
+        }
+        #email
+        {
+            float : right;
+            margin : 30px 0 0 20px;
+            padding-right : 20px;
+        }
+        body
+        {
+            margin : auto;
+            width : 1125px;
+            background-color : gainsboro;
+        }
+        a
+        {
+            text-decoration : none;
+        }
+        #list
+        {
+            margin-left : 10px;
+            padding-left : 23px;
+            font-weight : bold;
+        }
+        .font
+        {
+            font-weight : bold;
+        }
+        .right
+        {
+            float : left;
+            margin : auto;
+            padding-right : 5px;
+        }
+        .border
+        {
+            padding-left : 70px;
+        }
+        .li1
+        {
+            text-decoration : underline 2px;
+        }
+        .li2
+        {
+            font-weight : bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div title ="예술사조" id="logo">ART TRENDS</div>
+        <div id="top">
+            <div class="right" title="어두운 화면">Theme | </div>
+            <div class="right" title="로그인"> <a href="log_in.html"> Log-in </a> |</div> 
+            <div class="right" title="회원가입"> <a href="new.html" >Sign up </a> </div> 
+        </div>
+    </header>
+    <div class="clear"></div>
+    <nav>
+        <ul class="font">
+            <li title="다다이즘"><a href =""><span onclick="alert('페이지 준비중입니다')">Dadaism</span></a></li>
+            <li title="초현실주의">Surrealisme</li>
+            <li title="팝아트">Pop Art</li>
+            <a href="minimallism.html"><li title="미니멀리즘">Minimalism</li></a>
+            <li title="옵아트">Optical Art</li>
+        </ul>
+    </nav>
+    <div id="clear"></div>
+    <section>
+        <iframe class="border" src="pic1.html" name="pics" frameborder="0" scrolling="no" width="800px" height="500px"></iframe>
+        <iframe src="menu01.html" frameborder="0" scrolling="no" width="800px" height="70px" ></iframe>
+    </section>
+    <aside>
+        <ul>
+            <a><li class="li2" title="메뉴">Menu</li></a>
+            <a><li class="li1" title="기사">articles</li></a>
+            <a><li class="li1" title="페이지 정보">page information</li></a>
+            <a><li class="li1" title="제품">products</li></a>
+            <a href="Arts.html"><li class="li1" title="여러가지 예술">Arts</li></a>
+        </ul>
+    </aside>
+    <div class="clear"></div>
+    <footer>
+        <div id="name">
+            컴퓨터 소프트웨어 공학과 1학년 YB반 20220977 정성한
+        </div>
+        <div id="email">
+            sunghan2806@naver.com<br>
+            sunghan2806@gmail.com
+        </div>
+    </footer>
+</body>
+</html>

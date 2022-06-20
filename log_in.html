@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인 화면</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            font-family: 'Jua', sans-serif;
+            color : #555;
+        }
+        body
+        {
+            margin : auto;
+            width : 1000px;
+            background-color : gainsboro;
+        }
+        a
+        {
+            color : gray;
+            text-decoration : none;
+        }
+        .font 
+        {
+            font-size : 14px;
+            margin : 15px 100px 0px 140px;
+        }
+        .box
+        {
+            border : 2px solid gray;
+            width : 500px;
+            height : 300px;
+            border-radius : 5px;
+            margin : 0 auto;
+            margin-top : 45px;
+            background-color : #eee;
+            border : solid #ccc;
+        }
+        .forms
+        {
+            padding : 20px;
+        }
+        .input_a
+        {
+            border-radius : 5px;
+            margin : 20px 100px 0px 100px;
+            border : solid #ccc;
+        }
+        .input_b
+        {
+            border-radius : 5px;
+            margin : 10px 80px 0px 100px;
+            border : solid #ccc;
+        }
+        input
+        {
+            width : 250px;
+            height : 45px;
+        }
+        .sub
+        {
+            width : 257px;
+            border-radius : 5px;
+            margin : 10px 80px 0px 100px;
+            border : solid #ccc;
+            transition: all 0.5s;  
+
+        }
+        .title
+        {
+            margin-top : 135px;
+            margin-left : 250px;
+            height : 0px;
+        }
+        .left
+        {
+            padding-left : 40px;
+        }
+        .sub:hover{
+        background: white;
+        color: black;
+        transition: all 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="title"><h1>로그인</h1></div>
+    <div class="box">
+    <div class="forms">
+    <form>
+        <input type="text" name="id" placeholder="아이디" required class="input_a"><br>
+        <input type="password" name="password" placeholder="비밀번호" required class="input_b">
+        <input type="submit" value="로그인" class="sub">
+    </form>
+    </div>
+    <div class="font">
+        <a href="">아이디/비밀번호 찾기</a>
+        <a href="new.html" class="left">회원가입</a>
+    </div>
+    </div>
+</body>
+</html>

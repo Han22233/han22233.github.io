@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>ARTS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            padding : 0;
+            margin : 10px;
+            font-family: 'Jua', sans-serif;
+            color : #555;
+        }
+        header,nav,section,aside,footer
+        {
+            border : 5px solid #ccc;
+            border-radius : 5px;
+            background-color : #eee;
+        }
+        body
+        {
+            background-color : gainsboro;
+            width :1400px;
+            margin : auto;
+        }
+        .clear
+        {
+            clear : both;
+        }
+        header
+        {
+            width : 200px;
+            height : 120px;
+            float : left;
+        }
+        nav
+        {
+            width : 200px;
+            float : left;
+            display : flex;
+            margin-top : -640px;
+        }
+        section
+        {
+            width : 900px;
+            height : 800px;
+            float : left;
+        }
+        aside
+        {
+            width : 200px;
+            float : right;
+            margin-top : 195px;
+        }
+        .right
+        {
+            float : left;
+            margin : auto;
+            padding-left : 5px;
+            padding-top : 25px;
+            font-size : 13px;
+        }
+        #right1
+        {
+            float : left;
+            margin : auto;
+            padding-left : 5px;
+            padding-top : 21px;
+            font-size : 13px;
+        }
+        #right2
+        {
+            float : left;
+            margin : auto;
+            padding-left : 12px;
+            padding-top : 25px;
+            font-size : 13px;
+            padding-right : 5px;
+        }
+        a
+        {
+            text-decoration : none;
+        }
+        .title
+        {
+            padding-left : 70px;
+            padding-top : 15px;
+            font-size : 20px;
+        }
+        footer 
+        {
+            height : 95px;
+            margin : auto;
+        }
+        li
+        {
+            list-style-type: none;
+            padding-top : 25px;
+            padding-left : 50px;
+            padding-bottom : 10px;
+            text-decoration : underline 2px;
+            text-align : center;
+        }
+        ol li
+        {
+            list-style-type: none;
+            padding-top : 25px;
+            padding-left : 10px;
+            padding-bottom : 10px;
+            text-decoration : underline 2px;
+            text-align : center;
+        }
+        .li1
+        {
+            text-decoration : none;
+            padding-left : 50px;
+            font-weight : bold;
+        }
+        .li2
+        {
+            text-decoration : none;
+            padding-left : 10px;
+            font-weight : bold;
+        }
+        #name
+        {
+            float : left;
+            margin : 40px 0 0 20px;
+        }
+        #email
+        {
+            float : right;
+            margin : 30px 0 0 20px;
+            padding-right : 20px;
+        }
+        .prod
+        {
+            text-align : center;
+            margin-left : -10px;
+        }
+        .left
+        {
+            float : left;
+        }
+        .pad
+        {
+            margin-left : 100px;
+        }
+        img
+        {
+            border : 5px solid #ccc;
+            border-radius : 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title">Arts<br></div>
+        <div id="right2" title="어두운 화면">Theme</div>
+        <div class="right">|</div> 
+        <div class="right" title="로그인"> <a href="log_in.html"> Log-in </a> </div> 
+        <div class="right">|</div>
+        <div id="right1" title="회원가입"> <a href="new.html" >Sign up</a> </div> 
+    </header>
+    <section>
+        <div class="pad">
+        <div class="left">
+            <a href="mondriaan.html"><img class="left" src="./images/mondrian.jpeg" width="190px" title="피트 몬드리안"><br></a>
+            <div class="prod">Mondriaan</div>
+            <div class="clear"></div>
+            <img class="left" src="./images/Davinchi_1.jpg" width="190px" title="레오나르도 다빈치"><br>
+            <div class="prod">Da Vinci</div>
+            <div class="clear"></div>
+            <img class="left" src="./images/Van Goh_1.jpg" width="190px" title="빈센트 반 고흐"><br>
+            <div class="prod">Van Gogh</div>
+        </div>
+        <div class="left">
+            <a href=""><img class="left" src="./images/shinak_1.jpg" width="190px" title="폴 시냐크"><br></a>
+            <div class="prod">Signac</div>
+            <div class="clear"></div>
+            <img class="left" src="./images/mille_1.jpg" width="190px" title="장프랑수아 밀레"><br>
+            <div class="prod">Miele</div>
+            <div class="clear"></div>
+        </div>
+        <div class="left">
+            <a href=""><img class="left" src="./images/Andy wahol.jfif" width="190px" title="앤디 워홀"><br></a>
+            <div class="prod">Andy Warhol</div>
+            <div class="clear"></div>
+            <img class="left" src="./images/Happy.gif" width="190px" title="로이 리히텐슈타인"><br>
+            <div class="prod">Lichtenstein</div>
+            <div class="clear"></div>
+        </div>
+        </div>
+    </section>
+    <aside>
+        <ol>
+            <li class="li2">Menu</li>
+            <li>Main page</li>
+            <li>Articles</li>
+            <li>Pictures</li>
+            <li>page information</li>
+            <li>Artists</li>
+        </ol>
+    </aside>
+    <div class="clear"></div>
+    <nav>
+        <ul>
+            <li class="li1">Lists</li>
+            <li>Pictures</li>
+            <li>Darwing</li>
+            <li>Painting</li>
+            <li>Ridicule</li>
+            <li>Inquisitive</li>
+        </ul>
+    </nav>
+    <div class="clear"></div>
+    <footer>
+        <div id="name">
+            컴퓨터 소프트웨어 공학과 1학년 YB반 20220977 정성한
+        </div>
+        <div id="email">
+            sunghan2806@naver.com<br>
+            sunghan2806@gmail.com
+        </div>
+    </footer>
+</body>
+</html>

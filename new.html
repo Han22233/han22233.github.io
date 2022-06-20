@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입 페이지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            font-family: 'Jua', sans-serif;
+            color : #555;
+        }
+        body
+        {
+            margin: auto;
+            width : 1000px;
+            background-color : gainsboro;
+        }
+        .box
+        {
+            width : 500px;
+            border : 1px solid gray;
+            border-radius : 5px;
+            margin-left : 220px;
+            margin-top : 80px;
+            padding-left : 45px;
+            padding-top : 25px;
+            background-color : #eee;
+            margin-top : 0px;
+            margin-bottom : 150px;
+            border : solid #ccc;
+        }
+        .input1
+        {
+            width : 250px;
+            height : 35px;
+            border-radius : 5px;
+            border : solid #ccc;
+        }
+        #submit
+        {
+            margin-left :136px;
+            width : 258px;
+            height : 40px;
+            margin-top : 10px;
+            margin-bottom : 25px;
+        }
+        table
+        {
+            margin-left : 27px;
+        }
+        .title
+        {
+            margin-left : 250px;
+            margin-top : 70px;
+        }
+        .sub
+        {
+            width : 250px;
+            height : 35px;
+            border-radius : 5px;
+            border : solid #ccc;
+            transition: all 0.5s; 
+        }
+        .sub:hover{
+        background: white;
+        color: black;
+        transition: all 0.5s;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="title"><h1>회원가입</h1></div>
+    <form>
+        <div class="box">
+        <table width="425px" height="500">
+            <tr> <td>아이디</td> <td><input class="input1" type="text" name="id" required placeholder="아이디를 입력해주세요"></td></tr>
+            <tr> <td>비밀번호</td>  <td><input class="input1" type="text" name="password" required  placeholder="비밀번호를 입력해주세요"></td></tr>
+            <tr> <td>비밀번호 확인</td>  <td ><input class="input1" type="text" name="password2" required placeholder="비밀번호를 재입력해주세요"></td></tr>
+            <tr> <td>이메일</td>  <td ><input class="input1" type="email" name="email" required placeholder="이메일을 입력해주세요"></td></tr>
+            <tr> <td>이름</td>  <td ><input class="input1" type="text" name="name" required placeholder="이름을 입력해주세요"></td></tr>
+            <tr> <td>전화번호 </td> <td ><input class="input1" type="tel" name="tel" required placeholder="전화번호를 입력해주세요"></td></tr>      
+            <tr> <td>성별</td> <td> <label><input type="radio" name="a">남자</label> <label><input type="radio" name="a">여자</label></td></tr>
+            <tr> <td>지역</td> 
+                <td>
+                    <input class="input1" type="text" id="korea" list="areas">
+                    <datalist id="areas">
+                        <option value="서울특별시" label="Seoul"></option>
+                        <option value="인천광역시" label="Incheon"></option>
+                        <option value="대전광역시" label="Daejeon"></option>
+                        <option value="광주광역시" label="Gwangju"></option>
+                        <option value="대구광역시" label="Daegu"></option>
+                        <option value="울산광역시" label="Ulsan"></option>
+                        <option value="부산광역시" label="Busan"></option>
+                        <option value="제주특별자치도" label="Jeju"></option>
+                        <option value="경기도" label="Gyeonggi-do"></option>
+                        <option value="강원도" label="Gangwon-do"></option>
+                        <option value="충청도" label="Chungcheong-do"></option>
+                        <option value="전라도" label="Jeolla-do"></option>
+                        <option value="경상도" label="Gyeongsang-do"></option>
+                    </datalist>
+                </td>
+        </table>
+                <input id="submit" type="submit" class="sub" value="가입하기">
+        </div>
+    </form>
+</body>
+</html>
